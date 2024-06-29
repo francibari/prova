@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<MethodSetup Method="Fisher::ex_Fisher">
+  <GeneralInfo>
+    <Info name="TMVA Release" value="4.2.1 [262657]"/>
+    <Info name="ROOT Release" value="6.26/10 [399882]"/>
+    <Info name="Creator" value="francesco"/>
+    <Info name="Date" value="Sat Jun 22 11:58:07 2024"/>
+    <Info name="Host" value="Linux root-ubuntu-2204-1 5.15.0-50-generic #56-Ubuntu SMP Tue Sep 20 13:23:26 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux"/>
+    <Info name="Dir" value="/mnt/c/Users/franc/Desktop/project_SC/ROOT_code"/>
+    <Info name="Training events" value="30000"/>
+    <Info name="TrainingTime" value="6.19461536e-02"/>
+    <Info name="AnalysisType" value="Classification"/>
+  </GeneralInfo>
+  <Options>
+    <Option name="V" modified="Yes">False</Option>
+    <Option name="VerbosityLevel" modified="No">Default</Option>
+    <Option name="VarTransform" modified="No">None</Option>
+    <Option name="H" modified="Yes">True</Option>
+    <Option name="CreateMVAPdfs" modified="No">False</Option>
+    <Option name="IgnoreNegWeightsInTraining" modified="No">False</Option>
+    <Option name="Method" modified="Yes">Fisher</Option>
+  </Options>
+  <Variables NVar="9">
+    <Variable VarIndex="0" Expression="DER_mass_MMC" Label="DER_mass_MMC" Title="DER_mass_MMC" Unit="" Internal="DER_mass_MMC" Type="F" Min="-9.99000000e+02" Max="9.81976990e+02"/>
+    <Variable VarIndex="1" Expression="DER_mass_transverse_met_lep" Label="DER_mass_transverse_met_lep" Title="DER_mass_transverse_met_lep" Unit="" Internal="DER_mass_transverse_met_lep" Type="F" Min="4.00000019e-03" Max="4.38880005e+02"/>
+    <Variable VarIndex="2" Expression="DER_mass_vis" Label="DER_mass_vis" Title="DER_mass_vis" Unit="" Internal="DER_mass_vis" Type="F" Min="9.97299957e+00" Max="1.00621503e+03"/>
+    <Variable VarIndex="3" Expression="DER_pt_ratio_lep_tau" Label="DER_pt_ratio_lep_tau" Title="DER_pt_ratio_lep_tau" Unit="" Internal="DER_pt_ratio_lep_tau" Type="F" Min="8.29999968e-02" Max="2.74920006e+01"/>
+    <Variable VarIndex="4" Expression="PRI_tau_pt" Label="PRI_tau_pt" Title="PRI_tau_pt" Unit="" Internal="PRI_tau_pt" Type="F" Min="2.00009995e+01" Max="3.64997009e+02"/>
+    <Variable VarIndex="5" Expression="PRI_met" Label="PRI_met" Title="PRI_met" Unit="" Internal="PRI_met" Type="F" Min="2.79000014e-01" Max="5.71124023e+02"/>
+    <Variable VarIndex="6" Expression="PRI_jet_all_pt" Label="PRI_jet_all_pt" Title="PRI_jet_all_pt" Unit="" Internal="PRI_jet_all_pt" Type="F" Min="-0.00000000e+00" Max="1.41977698e+03"/>
+    <Variable VarIndex="7" Expression="DER_sum_pt" Label="DER_sum_pt" Title="DER_sum_pt" Unit="" Internal="DER_sum_pt" Type="F" Min="4.64020004e+01" Max="1.68975403e+03"/>
+    <Variable VarIndex="8" Expression="PRI_tau_eta" Label="PRI_tau_eta" Title="PRI_tau_eta" Unit="" Internal="PRI_tau_eta" Type="F" Min="-2.49799991e+00" Max="2.49699998e+00"/>
+  </Variables>
+  <Spectators NSpec="0"/>
+  <Classes NClass="2">
+    <Class Name="Signal" Index="0"/>
+    <Class Name="Background" Index="1"/>
+  </Classes>
+  <Transformations NTransformations="0"/>
+  <MVAPdfs/>
+  <Weights NCoeff="10">
+    <Coefficient Index="0" Value="1.1655506619464757e-01"/>
+    <Coefficient Index="1" Value="2.1769096072397345e-04"/>
+    <Coefficient Index="2" Value="-5.4585452736212094e-03"/>
+    <Coefficient Index="3" Value="-1.1646793652859027e-03"/>
+    <Coefficient Index="4" Value="-1.2702326127148653e-01"/>
+    <Coefficient Index="5" Value="-3.0165239596889049e-03"/>
+    <Coefficient Index="6" Value="1.6742372755794417e-03"/>
+    <Coefficient Index="7" Value="-6.3236596990778491e-03"/>
+    <Coefficient Index="8" Value="5.7564621879992129e-03"/>
+    <Coefficient Index="9" Value="-8.0526234576879148e-04"/>
+  </Weights>
+</MethodSetup>
